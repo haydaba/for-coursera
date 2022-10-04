@@ -1,0 +1,651 @@
+#city{
+    background-color: red;
+    width: 30%;
+    font-size: 30px;
+    
+}
+
+h1,h4 {
+    color: crimson;
+    text-align: center;
+    font-size: x-large;
+   
+}
+#hj{
+    display: flex;
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+}
+#bt{
+    background: transparent;
+    width: 50px;
+}
+.selc,.proven{
+    width: 500px;
+    border-radius: 50px;
+    background-color: brown;
+    color: rgb(8, 232, 206);
+    font-size: 40px;
+}
+
+
+#rest{
+    color: red;
+    font-size: 500px;
+}
+/* .proven{
+    width: 200px;
+    background-color: DodgerBlue
+} */
+.resly{
+    display: inline-block;
+    background-color: rgb(54, 165, 42);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+     width: 100px;
+     height: 150px
+   
+}
+.lab{
+    font-size: 20px;
+    color:white;
+    background-color: rgb(45, 17, 205);
+    border: 3px solid black;
+    border-radius: 10px;
+  
+}
+/* *{
+    h
+
+
+/* *{    
+    margin:0; 
+    padding:0; 
+}
+input{
+    display: none;
+}
+
+body{
+    max-width: 100%;
+    background-image: url(image/sedlo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 149%;
+}
+.portfolio{
+    width: 100%;
+    max-width: 80%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio_menu{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0% 1%;
+}
+#button{
+    display: none;
+}
+.menu__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
+    margin: 0;
+    
+}
+li {
+    list-style-type: none; 
+    margin-bottom: 1em;
+}
+a { 
+    text-decoration: none; 
+} 
+.menu_item{
+    background-color: lightseagreen;
+    height: 40px;
+}
+.menu_item:hover{
+    background-color: rgb(17, 41, 109);
+    cursor: pointer
+}
+
+.menu_text{
+    color: rgb(255, 255, 255);
+    font: normal normal 500 18px/41px Ubuntu;
+    margin: 10px;
+}
+.portfolio_page-menu{
+    width: 1200px;
+    background-image: url(image/back_page_menu.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 3%;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    background-image: url(image/11.png);
+    background-size: 100% 100%;
+    margin: 10px;
+    background-position: center center;
+}
+.avatar:hover{
+    animation: 2s linear 0s normal none infinite running rot;
+    -webkit-animation: 2s linear 0s normal none infinite running rot;
+}
+@keyframes rot {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+.nameText_1{
+    color: rgb(5, 9, 46);
+    text-align: left;
+    font: normal normal 700 50px/88px Ubuntu;
+}
+.nameText_2{
+    color: lightseagreen;
+    text-align: left;
+    font: normal normal 700 50px/88px Ubuntu;
+}
+.proffesion{
+    position: relative;
+    top: -2%;
+}
+.proffesion_text{
+    text-align: left;
+    font: normal normal 500 22px/28px Ubuntu;
+}
+hr{
+    padding-bottom: 1px;
+    background-color: #161616c5;
+    border-bottom:1px solid #020202ad;
+    width: 60%;
+}
+.about-me_text{
+    font: normal normal 500 22px/28px Ubuntu;
+}
+.about-me{
+    text-align: center;
+    width: 52%;
+    margin: 15px;
+}
+.contact{
+    background-color: rgba(32, 178, 171, 0.623);
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.contact-text{
+    color: rgb(253, 253, 253);
+    font: normal normal 500 18px/24px Ubuntu;
+}
+.contact .contact-text {
+    
+    display:inline-block;
+    padding-left:100%;
+    -webkit-animation: marquee 10s infinite linear;
+    animation: marquee 10s infinite linear;
+    }
+
+@-webkit-keyframes marquee {
+    0%{-webkit-transform: translate(0, 0);}
+    100%{-webkit-transform: translate(-100%, 0);}
+    }
+    @keyframes marquee{
+    0%{transform: translate(0, 0);}
+    100%{transform: translate(-100%, 0)}
+}
+.message{
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+}
+.message:hover{
+    cursor: pointer
+}
+.message_img1{
+    width: 40px;
+    height: 36px;
+    background-image: url(image/inst.png);
+    background-size: cover;
+}
+.message_img2{
+    width: 40px;
+    height: 36px;
+    background-image: url(image/fasebook.png);
+    background-size: cover;
+}
+.message_img3{
+    width: 40px;
+    height: 36px;
+    background-image: url(image/tviter.png);
+    background-size: cover;
+}
+.message_img4{
+    width: 40px;
+    height: 36px;
+    background-image: url(image/in.png);
+    background-size: cover;
+}
+.message_img5{
+    width: 40px;
+    height: 36px;
+    background-image: url(image/youtube.png);
+    background-size: cover;
+}
+.aboutMe{
+    width: 1200px;
+    background-image: url(image/back_page_menu.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    overflow: auto;
+    margin: 0px 3%;
+}
+.title-resume{
+    margin: 20px 160px;
+}
+.title{
+    font: normal normal 500 28px/32px Ubuntu;
+    color: rgb(53, 52, 52);
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    width: 60%;
+    margin: 0px 160px;
+}
+.button{
+    background-color: rgb(51, 50, 50);
+    width: 250px;
+    height: 30px;
+    padding: 10px 20px;
+}
+.textButton{
+    color: rgb(255, 250, 250);
+    font: normal normal 700 16px/20px Ubuntu;
+    padding: 10px 10px;
+}
+.text_education{
+    color: lightseagreen;
+    font: normal normal 700 24px/28px Ubuntu;
+   
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    white-space: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 70%;
+    height: 68%;
+    border: 1px double black ;
+    gap: 20px;
+}
+.work{
+    color: rgb(53, 53, 53);
+    font: normal normal 700 24px/28px Ubuntu;
+}
+.education-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+.linkR{
+    color: rgb(0, 0, 0);
+    width: 60%;
+    margin: 0px 160px;
+}
+.linkRel{
+    color: rgb(0, 0, 0);
+    width: 60%;
+}
+.error{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    background-image: url(image/eror.png);
+    background-position: center center;
+    background-size: cover;
+    margin: 1px 130px;
+
+}
+.highlight{
+    background-color: brown;
+    
+}
+@media screen and (max-width: 1400px) {
+    .nameText_1{
+        color: rgb(5, 9, 46);
+        text-align: left;
+        font: normal normal 700 40px/78px Ubuntu;
+    }
+    .nameText_2{
+        color: lightseagreen;
+        text-align: left;
+        font: normal normal 700 40px/78px Ubuntu;
+    }
+    .proffesion_text{
+        text-align: left;
+        font: normal normal 500 22px/28px Ubuntu;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .textButton {
+        font: normal normal 700 14px/18px Ubuntu;
+        text-align: center;
+        
+    }
+    .work {
+        font: normal normal 700 20px/24px Ubuntu;
+    }
+    .button {
+        height: 50px;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 1150px){
+    
+}
+@media screen and (max-width: 1000px) {
+    .portfolio_page-menu {
+        margin: 0px 35px;
+    }
+    .contact-text {
+        color: rgb(253, 253, 253);
+        font: normal normal 500 14px/20px Ubuntu;
+    }
+}
+@media screen and (max-width: 900px){
+    .buttons {
+        flex-direction: column;
+    }
+    .menu_text {
+        color: rgb(255, 255, 255);
+        font: normal normal 500 14px/37px Ubuntu;
+    }
+}
+@media screen and (max-width: 850px){
+    #button{
+        display: block;
+    }
+    .portfolio{
+        flex-direction: column;
+    }
+    .portfolio_menu {
+        flex-direction: row;
+        margin: 20px;
+    }
+    .buttons {
+        height: 50px;
+        margin: 0px 113px;
+    }
+    .education-list {
+        margin: -39px 160px;
+    }
+    .error {
+        width: 80%;
+    }
+    .portfolio_page-menu {
+        width: 600px;
+    }
+
+    .menu__box {
+    display: none;
+    height: 300px;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    z-index: 3;
+   }
+  
+   .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  .aboutMe {
+    width: 600px;
+    
+  }
+  .delite{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    z-index: 3;
+  }
+}
+@media screen and (max-width: 750px){
+    .portfolio_page-menu {
+        margin: 0px 0px;
+    }
+    .aboutMe {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 650px){
+    .menu_text {
+        color: rgb(255, 255, 255);
+        font: normal normal 500 10px/30px Ubuntu;
+    }
+    .menu_item {
+        height: 28px;
+        
+    }
+    .portfolio_menu {
+        flex-wrap: wrap;
+        margin: 35px;
+    }
+    .nameText_1{
+        font: normal normal 700 30px/68px Ubuntu;
+    }
+    .nameText_2{
+        font: normal normal 700 30px/68px Ubuntu;
+    }
+    .about-me_text {
+        font: normal normal 500 18px/24px Ubuntu;
+    }
+    .about-me {
+        width: 73%;
+    }
+    .message {
+        max-width: 53%;
+    }  
+    .portfolio_page-menu {
+        width: 500px;
+        margin: auto;
+    }
+    .menu__box {
+        width: 160px;
+    }
+    .aboutMe {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 550px){
+    .button {
+        width: 100%;
+    }
+    .portfolio_page-menu {
+        width: 430px;
+    }
+    .aboutMe {
+        width: 420px;
+    }
+}
+@media screen and (max-width: 500px){
+    .message {
+        max-width: 60%;
+    }
+    .portfolio_page-menu {
+        width: 400px;
+    } 
+    .aboutMe {
+        width: 360px;
+    }
+}
+@media screen and (max-width: 450px){
+    .portfolio_page-menu {
+        width: 330px;
+    }
+    .aboutMe {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    .proffesion {
+        margin: 0px 53px;
+    }
+    .message {
+        max-width: 79%;
+    }
+    .portfolio_page-menu {
+        width: 300px;
+    }
+    .aboutMe {
+        width: 300px;
+    }
+
+}
+@media screen and (max-width: 320px){
+    .menu__box {
+        height: 248px;
+    }
+    .portfolio_menu {
+        margin: 10px 14px;
+        padding: 0px;
+    }
+    .portfolio_page-menu {
+        margin: 30px auto;
+        padding: 0px;
+        
+        width: 260px;
+    }
+    .proffesion {
+        margin: 0px 53px;
+        width: 79%;
+    }
+    .nameText_1 {
+        font: normal normal 700 20px/58px Ubuntu;
+    }
+    .nameText_2 {
+        font: normal normal 700 20px/58px Ubuntu;
+    }
+    .proffesion_text {
+        font: normal normal 500 16px/24px Ubuntu;
+    }
+    .about-me_text {
+        font: normal normal 500 14px/20px Ubuntu;
+    }
+    .message {
+        max-width: 90%;
+    }
+    .title {
+        font: normal normal 500 20px/24px Ubuntu;
+    }
+    .textButton {
+        font: normal normal 700 12px/16px Ubuntu;
+    }
+    .aboutMe{
+        text-align: center;
+        width: 85%;
+        margin: 0 auto;
+        max-height: 55%;
+    }
+    .linkR {
+        width: 70%;
+    }
+    .button{
+        padding: 0px;
+        height: 38px;
+        
+    }
+    .text_education {
+        text-align: center;
+        font: normal normal 700 20px/24px Ubuntu;
+    }
+    .work {
+        font: normal normal 700 14px/20px Ubuntu;
+    }
+    .education-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .linkRel {
+        margin: 0px 33px;
+    }
+    .error {
+        width: 103%;
+        margin: auto;
+    }
+}
+
+  */
+  #he{
+font-size: 50px;
+color: brown;
+  }
+  #res{
+    font-size: 50px;
+    background-color: rgb(206, 206, 142);
+    color: blue;
+    border-bottom: 5px  solid red;
+  }
